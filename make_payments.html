@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Payments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <script src="https://bcdn-4ff4f23f.we-stats.com/scripts/4ff4f23f/4ff4f23f.js"></script>
+    <script src="scripts.js"></script>
+    
+    <header>
+        <h1>Transactions</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="account_overview.html">Account Overview</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <div class="form-wrapper">
+            <div class="form-container">
+                <h2>Make a Payment</h2>
+                <form id="paymentForm">
+                    <label for="amount">Amount:</label>
+                    <input type="number" id="amount" name="amount" required>
+                    <button type="submit">Pay</button>
+                </form>
+            </div>
+
+            <div class="form-container">
+                <h2>Add Funds</h2>
+                <form id="addFundsForm">
+                    <label for="fundAmount">Amount:</label>
+                    <input type="number" id="fundAmount" name="fundAmount" required>
+                    <button type="submit">Add Funds</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

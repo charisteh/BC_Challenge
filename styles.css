@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    background-color: white;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.form-container {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #003399;
+}
+
+.account-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.account-summary div {
+    text-align: center;
+}
+
+.account-summary img {
+    width: 50px;
+    height: 50px;
+}
+
+.transactions {
+    margin-top: 2rem;
+}
+
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactions th,
+.transactions td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.transactions th {
+    background-color: #0044cc;
+    color: white;
+}
